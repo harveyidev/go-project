@@ -39,5 +39,6 @@ func main() {
 		convertToBin(0),
 	)
 	printFile("abc.txt")
-	//forever()
+
+	forever()
 }
