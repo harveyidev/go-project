@@ -4,5 +4,9 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("dddd")
+	m := make(map[string]string)
+	fmt.Println(m)
+
+	countryCapitalMap := map[string]string{"France": "Paris", "Italy": "Rome", "Japan": "Tokyo", "India": "New delhi"}
+	fmt.Println(countryCapitalMap)
 }

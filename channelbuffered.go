@@ -7,6 +7,7 @@ import (
 
 func main() {
 
+	//有缓冲的
 	c := make(chan int, 5)
 	go func() {
 		for i := 0; i < 10; i++ {
